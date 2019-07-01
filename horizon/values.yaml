@@ -19,10 +19,10 @@
 
 images:
   tags:
-    db_init: docker.io/openstackhelm/heat:ocata-ubuntu_xenial
-    horizon_db_sync: docker.io/openstackhelm/horizon:ocata-ubuntu_xenial
-    db_drop: docker.io/openstackhelm/heat:ocata-ubuntu_xenial
-    horizon: docker.io/openstackhelm/horizon:ocata-ubuntu_xenial
+    db_init: docker.io/openstackhelm/heat:queens-ubuntu_xenial
+    horizon_db_sync: docker.io/openstackhelm/horizon:queens-ubuntu_xenial
+    db_drop: docker.io/openstackhelm/heat:queens-ubuntu_xenial
+    horizon: docker.io/openstackhelm/horizon:queens-ubuntu_xenial
     test: docker.io/openstackhelm/osh-selenium:latest-ubuntu_xenial
     dep_check: quay.io/stackanetes/kubernetes-entrypoint:v0.3.1
     image_repo_sync: docker.io/docker:17.07.0
